@@ -1,0 +1,120 @@
+body{
+		
+		font-family:sans-serif;
+		background-color: inherit;
+		color: white;
+	}
+	mark{
+		background-color: initial;
+		color: inherit;
+	}
+	h1{
+		text-align: center;
+
+	}
+   *{
+   		background-color: inherit;
+   		
+   		/*align-content: right;*/
+   		background-color: inherit;
+   		font-family: "Elephant",sans-serif;
+   		font-style: italic;
+   		font-weight: bold;
+   		/*font-variant: small-caps; */
+   		font-weight: lighter;
+   		letter-spacing: 1px;
+   		word-spacing: 2px;
+   		direction: ltr;
+   		/*text-indent:25px;
+   		border-width: 2px;
+   		border-color: gray;
+   		border-style: solid;*/
+    }
+.firstid{
+	padding: 50px;
+	background-image: url('DSC_0023.jpg');
+
+	background-size: 100% 100%;
+	background-repeat:repeat-y; 
+
+	background-attachment: fixed;
+	background-color: inherit;
+	
+}
+input[type=text],textarea{
+	width: 25%;
+	padding: 10px;
+	margin: 20px 20px 20px 20px;
+	display: inline-block;
+	border: 1;
+	background: inherit;
+	overflow: auto;
+}
+div{
+	padding: 20px 0;
+	cursor: auto zoom-in;
+}
+hr{
+	border: 1px ;
+	margin-bottom: 25px;
+}
+.Submit{
+	background-color: lightgreen;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 70%
+	opacity:0.9;
+}
+.Submit.hover{
+	opacity: 1;
+}
+.Reset{
+	background-color: red;
+	color:white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 7%;
+	opacity: 0.9;
+}
+.Reset.hover{
+	opacity: 1;
+}
+
+.header{
+	width: 100%;
+	line-height: 80px;
+	background-color: black;
+}
+.logo{
+	width: 30%;
+	height: 80px;
+	background-color: orange;
+	float: left;
+	text-align: center;
+	font-size: 36px;
+	color: black;
+}
+.Menu{
+	width: 70%;
+	line-height: 48px;
+	background-color: lightgreen;
+	float: right;
+	color: black;
+
+}
+ul{
+	list-style: none;
+	/*text-align: right;*/
+}
+li{
+	display: inline;
+	/*border: 1px solid black;*/
+	padding: 5px 10px;
+
+
+}
